@@ -1,0 +1,59 @@
+.
+├── App.js
+├── components
+│   ├── AboutUs.jsx
+│   ├── ComputerPage.jsx
+│   ├── ComputerPageInfo
+│   │   ├── ChooseComponentInfo
+│   │   │   ├── ChooseComponent.css
+│   │   │   ├── ChooseComponents.jsx
+│   │   │   └── ComponentInfo.jsx
+│   │   ├── DDR5Info.jsx
+│   │   ├── IntelInfo.jsx
+│   │   ├── InterlStatisticsComponents
+│   │   │   ├── IntelStatistics.jsx
+│   │   │   └── ProcessorInfo.jsx
+│   │   ├── OurBenefits.jsx
+│   │   ├── Ports.jsx
+│   │   └── RTXComponents
+│   │       ├── Accordion.css
+│   │       ├── AccorionItem.jsx
+│   │       └── RTXInfo.jsx
+│   ├── Computers.jsx
+│   ├── Navbar.jsx
+│   └── Register.jsx
+├── fontSF
+│   ├── COPYRIGHT.txt
+│   ├── SF-Pro-Display-Black.otf
+│   ├── SF-Pro-Display-Black.woff
+│   ├── SF-Pro-Display-BlackItalic.otf
+│   ├── SF-Pro-Display-Bold.otf
+│   ├── SF-Pro-Display-BoldItalic.otf
+│   ├── SF-Pro-Display-Heavy.otf
+│   ├── SF-Pro-Display-HeavyItalic.otf
+│   ├── SF-Pro-Display-Light.otf
+│   ├── SF-Pro-Display-LightItalic.otf
+│   ├── SF-Pro-Display-Medium.otf
+│   ├── SF-Pro-Display-MediumItalic.otf
+│   ├── SF-Pro-Display-Regular.otf
+│   ├── SF-Pro-Display-RegularItalic.otf
+│   ├── SF-Pro-Display-Semibold.otf
+│   ├── SF-Pro-Display-SemiboldItalic.otf
+│   ├── SF-Pro-Display-Thin.otf
+│   ├── SF-Pro-Display-ThinItalic.otf
+│   ├── SF-Pro-Display-Ultralight.otf
+│   ├── SF-Pro-Display-UltralightItalic.otf
+│   └── SFPro_Font_License.rtf
+├── index.css
+├── index.js
+├── logo.svg
+├── reportWebVitals.js
+├── setupTests.js
+├── static
+│   └── svgs
+│       ├── ArrowBot.jsx
+│       ├── ArrowTop.jsx
+│       └── ArrowTop.svg
+└── tree.txt
+
+9 directories, 48 files

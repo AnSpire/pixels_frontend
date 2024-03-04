@@ -1,0 +1,9 @@
+.accordion_collapse{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.icon_animation {
+    transition: height 0.5s;
+}

@@ -1,13 +1,177 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0 auto;
+  overflow-x: hidden;
+  /* background-color: #eee; */
 }
+
+
+
+.input-field {
+  @apply min-w-full my-2;
+}
+
+.container_1110 {
+  @apply max-w-[1150px] mx-auto px-[20px];
+}
+.gradient_purple {
+  border-radius: 0.5rem;
+  border: 2px solid var(--, #1d1d1f);
+  background: linear-gradient(
+    45deg,
+    #c89acd 0%,
+    #8340db 6.76%,
+    #291296 25.25%,
+    #0c0b11 72.01%
+  );
+}
+.gradient_green {
+  border-radius: 0.5rem;
+  border: 2px solid var(--, #1d1d1f);
+  background: linear-gradient(
+    45deg,
+    #b6e7da 0%,
+    #2fcc9f 10.76%,
+    #167fa8 27.5%,
+    #0c0b11 64.5%
+  );
+}
+.gradient_blue {
+  border-radius: 0.5rem;
+  border: 2px solid var(--, #1d1d1f);
+  background: linear-gradient(
+    45deg,
+    #bceaf7 0%,
+    #66d4ff 6.76%,
+    #001091 25.25%,
+    #0c0b11 72.01%
+  );
+}
+
+.rtx_gradient {
+  background: linear-gradient(
+    90deg,
+    #fbf9ec -2.4%,
+    #dd9abf 19.42%,
+    #9a86df 45.93%,
+    #9cd2fa 73.48%,
+    #c7f8ff 98.43%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intel_gradient {
+  background: linear-gradient(89deg, #d676eb 0.09%, #8227ff 99.53%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intel_middle_gradient {
+  background: linear-gradient(45deg, #007fff 0%, #54c1ff 100%);
+}
+.item_center {
+  top: calc(50% - 21px);
+}
+.grid-bg {
+  background-image: linear-gradient(
+      rgba(204, 227, 249, 0.2) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(204, 227, 249, 0.1) 1px, transparent 1px);
+  background-position: -10px -20px;
+  background-size: 80px 80px; /* Размер клетки сетки */
+}
+.white_statistics_gradient {
+  border-radius: 0.5rem;
+  background: linear-gradient(270deg, #cce3f9 0%, rgba(17, 17, 17, 0.7) 100%);
+  margin-right: 1rem;
+}
+.blue_statistics_gradient {
+  border-radius: 0.5rem;
+  background: linear-gradient(270deg, #0071e3 0%, rgba(17, 17, 17, 0.7) 100%);
+  margin-right: 1rem;
+}
+.ram_gradient {
+  background: linear-gradient(264deg, #DB1626 22.22%, #DE9059 99.99%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.first_minute_gradient{
+  background: linear-gradient(89deg, #DF50AD 0.09%, #EB587D 99.53%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Regular.otf") format('opentype'); /* URL-адрес файла шрифта Regular */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: normal; /* Обычная толщина */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Medium.otf") format('opentype'); /* URL-адрес файла шрифта Medium */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: 500; /* Средняя толщина */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Bold.otf") format('opentype'); /* URL-адрес файла шрифта Bold */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: bold; /* Полужирный */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Semibold.otf") format('opentype'); /* URL-адрес файла шрифта Semibold */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: 600; /* Полужирный */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Light.otf") format('opentype'); /* URL-адрес файла шрифта Light */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: 300; /* Легкий */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Ultralight.otf") format('opentype'); /* URL-адрес файла шрифта Ultralight */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: 200; /* Очень легкий */
+}
+
+@font-face {
+  font-family: 'SF Pro Display'; /* Название семейства шрифтов */
+  src: url("./fontSF/SF-Pro-Display-Heavy.otf") format('opentype'); /* URL-адрес файла шрифта Heavy */
+  font-style: normal; /* Нормальный стиль */
+  font-weight: 800; /* Тяжелый */
+}
+ .backdrop_my {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Чем меньше значение альфа-канала, тем затемненнее фон */
+  z-index: 1;
+  overflow: hidden;
+} 

@@ -1,0 +1,18 @@
+.choose_component .peek_button
+{
+    @apply text-center text-white text-[17px] font-normal leading-[17px] !important;
+}
+@layer component {
+    .choose_component .peek_button__container
+{
+    @apply absolute bottom-[14px] w-[97px] h-[29px] px-4 py-1.5 rounded border border-white justify-center items-center inline-flex hover:w-[100px] transition-all duration-300 cursor-pointer !important;
+}
+}
+.choose_component .choose_item__container
+{
+    @apply relative w-[10rem] h-[172px]  rounded-lg border-2 border-zinc-900 flex flex-col items-center pt-[0.75rem] z-0;
+}
+.choose_component .component_info
+{
+    @apply absolute flex items-center h-[42px] text-center text-white text-[17px] font-semibold  leading-[21px] !important;
+}

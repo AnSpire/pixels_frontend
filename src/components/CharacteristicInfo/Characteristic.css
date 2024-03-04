@@ -1,0 +1,11 @@
+.grid_wrapper{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-row-gap: 4rem;
+}
+.charachterisctic_title{
+    @apply text-zinc-900 text-[17px] font-semibold leading-[25px] w-[35%];
+}
+.charachterisctic_value{
+    @apply text-zinc-900 text-[17px] font-semibold leading-[25px] w-[65%]
+}
