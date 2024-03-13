@@ -1,0 +1,12 @@
+.i7gradient {
+  border-radius: 9.789px;
+  background: linear-gradient(45deg, #007fff 0%, #54c1ff 100%);
+}
+.i9gradient {
+  border-radius: 9.789px;
+  background: linear-gradient(45deg, #0c0c0c 0%, #565656 100%);
+}
+.smIntel__slider .slick-slide {
+  display: flex;
+  justify-content: center;
+}

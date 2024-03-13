@@ -1,0 +1,24 @@
+/* Ваш CSS файл */
+
+/* Стили для контейнера */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px; /* Отступы между карточками */
+  max-width: 1150px;
+}
+
+/* Стили для карточки */
+/* Стили для карточки */
+
+/* Стили для карточки при наведении */
+.card:hover {
+  width: 300px; /* Ширина без отступов */
+  margin-right: -22.5px; /* Компенсация изменения ширины */
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 32px -8px rgba(0, 0, 0, 0.25);
+  transform: translateX(
+    -22.5px
+  ); /* Смещаем карточку влево на половину изменения ширины */
+}

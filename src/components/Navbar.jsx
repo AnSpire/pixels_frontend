@@ -11,24 +11,24 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-center w-full  border-b-[1px] border-black h-[64px] mb-[0.63rem] md:mb-8">
-      <div className="flex justify-between items-center h-24 max-w-[1110px] w-full h-full mx-auto px-5">
+      <div className="flex justify-between items-center h-24 max-w-[1150px] w-full h-full mx-auto px-5">
         <div className="flex items-center h-full border-r-[1px] border-black pr-[39px]">
           <h1 className="text-xl font-extrabold ">
             <Link to="">pixel pc</Link>
           </h1>
         </div>
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex ">
           <li className="p-4">
             <Link to="/Computers">Компьютеры</Link>
           </li>
           <li className="p-4">
-            <Link to="/Pc">Компьютеры</Link>
+            <Link to="/Monitors">Мониторы</Link>
           </li>
           <li className="p-4">
-            <Link to="/Pc">Компьютеры</Link>
+            <Link to="/Pc">Ноутбуки</Link>
           </li>
           <li className="p-4">
-            <Link to="/Computers/Pixel-Graphics-+">Компьютеры</Link>
+            <Link to="/Pc">Перифирия</Link>
           </li>
           <li className="p-4">
             <Link to="/Register"> Лк</Link>
@@ -40,13 +40,14 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500 "
-              : "ease-in-out duration-500 fixed left-[-100%] "
+              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#fff] ease-in-out duration-500 z-10  "
+              : "ease-in-out duration-500 fixed left-[-100%]  "
           }
         >
-          <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">
+          <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4 absolute ">
             REACT.
           </h1>
+
           <li className="p-4">
             <Link to="/computers">Компьютеры</Link>
           </li>
